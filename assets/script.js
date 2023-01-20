@@ -1,3 +1,6 @@
+// jQuery to change title colour:
+$('.display-3').css('color', '#06aed5');
+
 // Code displaying todays date (day, month, year):
 var todaysDate = moment().format('dddd, MMM Do YYYY - h:mm a');
 $("#currentDay").html(todaysDate);
@@ -41,4 +44,15 @@ $(document).ready(function() {
     }
 
     Tracker();
+
+    // Code that gets input from the local storage:
+    $("#clock9 .description").val(localStorage.getItem("clock9"));
+    $("#clock10 .description").val(localStorage.getItem("clock10"));
+    $("#clock11 .description").val(localStorage.getItem("clock11"));
+    $("#clock12 .description").val(localStorage.getItem("clock12"));
+    $("#clock13 .description").val(localStorage.getItem("clock13"));
+    $("#clock14 .description").val(localStorage.getItem("clock14"));
+    $("#clock15 .description").val(localStorage.getItem("clock15"));
+    $("#clock16 .description").val(localStorage.getItem("clock16"));
+    $("#clock17 .description").val(localStorage.getItem("clock17"));
 })
