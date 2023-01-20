@@ -69,3 +69,14 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  text-align: center;
+  font-size: 30px;
+  border-top: 20px solid white;
+  border-bottom: 40px solid white;
+}
